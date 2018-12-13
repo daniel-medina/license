@@ -1,0 +1,351 @@
+body {
+}
+.row {
+  padding: 0 5px;
+}
+.no-padding {
+  padding: 0;
+}
+.tb {
+  color: red !important;
+}
+li {
+  list-style: none;
+}
+h1 {
+  font-size: 12px;
+}
+.menu {
+  padding: 10px;
+  margin: 5px 0 5px 0;
+  text-align: right;
+}
+.menu ul li {
+  display: inline;
+}
+.menu ul li a {
+  text-decoration: none;
+  font-size: 1.42em;
+  font-weight: bold;
+  padding: 15px;
+  color: #292929;
+  border-bottom: 1px solid white;
+  transition: border-color 0.42s;
+}
+.menu ul li .active {
+  border-color: #333333 !important;
+}
+.menu ul li a:hover {
+  border-color: #333333;
+}
+.resume {
+  width: 100%;
+  display: table;
+}
+.resume ul {
+  margin: 0;
+  padding: 0;
+}
+.resume .titre {
+  display: table;
+  width: 100%;
+  padding-right: 5px;
+  margin: 5px 0;
+}
+.resume .titre #texte {
+  display: table-cell;
+  white-space: nowrap;
+  width: auto;
+  padding: 0;
+  padding-right: 5px;
+  text-transform: uppercase;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+.resume .titre #trait {
+  display: table-cell;
+  position: relative;
+  bottom: 11.5px; /* À adapter avec la taille de la police d'écriture de #texte */
+  width: 100%;
+  border-bottom: 1px solid #777777;
+}
+.resume .presentation {
+  display: table-cell;
+  min-width: 270px;
+  border-bottom-left-radius: 5px;
+}
+.resume .presentation #photo {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.resume .presentation #photo img {
+  border-radius: 10px;
+  width: 100px;
+  height: 120px;
+}
+.resume .presentation .nom {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.20em;
+}
+.resume .presentation .age {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.20em;
+}
+.resume .presentation .description {
+  text-align: center;
+  font-size: 0.95em;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.resume .presentation .adresse table,tr,td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: left;
+}
+.resume .presentation .adresse td {
+  min-width: 20px;
+}
+.resume .presentation .adresse table td.icone {
+  vertical-align: top;
+  text-align: left;
+}
+.resume .presentation .adresse table td.detail {
+  text-align: left;
+  width: 100%;
+}
+.resume .presentation .competences {
+  margin: 10px 0;
+}
+.resume .presentation .competences #nom {
+  font-weight: bold;
+}
+.resume .presentation .competences #niveau {
+  padding: 0 3px;
+}
+.resume .presentation .competences #niveau div {
+  display: inline-block;
+  width: 12.5px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  height: 20px;
+  margin: 0;
+}
+.resume .presentation .competences #niveau .o {
+  background: #333333;
+}
+.resume .presentation .competences #niveau .n {
+  background: #888888;
+}
+.resume .contenu {
+  display: table-cell;
+  vertical-align: top;
+  width: 100%;
+  padding-left: 20px;
+}
+.resume .contenu .experience-professionnelle, .experience-technique, .education, .centre-interet {
+  margin: 5px 0;
+  padding: 0;
+}
+.resume .contenu .experience-professionnelle {
+  float: left !important; /* Doit re-appliquer le style flottant pour permettre l'utilisation des colonnes */
+}
+.resume .contenu .experience-technique {
+  float: left !important; /* Doit re-appliquer le style flottant pour permettre l'utilisation des colonnes */
+}
+.resume .contenu .education {
+  float: left !important; /* Doit re-appliquer le style flottant pour permettre l'utilisation des colonnes */
+}
+.resume .contenu .centre-interet {
+  float: left !important; /* Doit re-appliquer le style flottant pour permettre l'utilisation des colonnes */
+}
+.resume .contenu #bloc {
+  display: table;
+  padding: 0;
+  margin-bottom: 10px;
+}
+.resume .contenu #bloc .nom, .resume .contenu #bloc .mention {
+  display: table-cell;
+  vertical-align: center;
+  padding: 0 5px;
+}
+.resume .contenu #bloc .info #date, .resume .contenu #bloc .info #nature {
+  display: table-row;
+}
+.resume .contenu #bloc .activites {
+  display: table-row;
+}
+.resume .contenu #bloc .activites #rappel, .resume .contenu #bloc .activites #detail {
+  display: table-cell;
+  vertical-align: center;
+}
+.resume .contenu #bloc .activites #rappel {
+  text-align: right;
+  color: grey;
+  font-weight: bold;
+}
+.resume .contenu #bloc .activites #detail {
+  color: grey;
+  font-weight: bold;
+  font-size: 0.90em;
+  padding: 0 5px;
+}
+.resume .contenu #bloc .info #date, .resume .contenu #bloc .info #nature{
+  color: grey;
+}
+.resume .contenu #bloc .info #nature {
+  font-weight: bold;
+}
+.resume .contenu #bloc .info {
+  display: table;
+  min-width: 80px;
+  text-align: right;
+}
+.resume .contenu #bloc .nom {
+  width: 100%;
+}
+.resume .contenu #bloc .mention {
+  min-width: 100px;
+  text-align: center;
+  color: grey;
+  font-weight: bold;
+}
+.login {
+}
+.login label {
+  width: 100%;
+  font-weight: bold;
+}
+.login .btn {
+  width: 100%;
+  padding: 10px 20px;
+}
+.chat {
+  padding: 0;
+  padding-bottom: 20px;
+  width: 100%;
+  overflow: hidden;
+  word-break: break-all;
+}
+.chat ul {
+  padding: 0;
+  margin: 0;
+}
+.chat .message-form {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border: none;
+  padding-right: 140px;
+  padding-left: 50px;
+  border-top: 1px solid #e0e0e0;
+  border-radius: 0;
+  transition: border-color .5s;
+}
+.chat .message-form:focus {
+  box-shadow: none;
+}
+.chat input[type=submit] {
+  position: fixed;
+  bottom: 0;
+  right: 35px;
+  border: 0;
+  background: #e0e0e0;
+  padding: 7px 15px;
+  font-weight: bold;
+  z-index: 9999;
+  color: black;
+  transition: color, .5s;
+}
+.chat input[type=submit]:hover {
+  cursor: pointer;
+  color: red;
+}
+.chat .disconnect {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border: 0;
+  background: #e0e0e0;
+  padding: 7px 15px;
+  font-weight: bold;
+  z-index: 9999;
+  text-decoration: none;
+  color: black;
+  transition: color, .5s;
+}
+.chat .disconnect:hover {
+  cursor: pointer;
+  color: red;
+}
+.chat .showChannels {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  border: 0;
+  background: #e0e0e0;
+  padding: 7px 15px;
+  font-weight: bold;
+  z-index: 9999;
+  text-decoration: none;
+  color: black;
+  transition: color, .5s;
+}
+.chat .showChannels:hover {
+  cursor: pointer;
+  color: red !important;
+}
+.chat .channels {
+  position: fixed;
+  bottom: 40px;
+  right: 0;
+  padding: 0;
+}
+.chat .channels li {
+  padding: 0 5px;
+  margin: 20px 0;
+}
+.chat .channels li a {
+  color: #292929;
+  text-decoration: none;
+  background: #ffeeaa;
+  padding: 10px 5px !important;
+  border-radius: 5px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.0);
+  transition: box-shadow .25s;
+}
+.chat .channels li a:hover {
+  box-shadow: 0 0 4px #292929;
+  cursor: pointer;
+}
+.chat .channels li.active a {
+  color: red;
+}
+.chat .messages {
+  padding: 0;
+  z-index: -1;
+}
+.chat .messages li .tete {
+  width: 100%;
+  padding: 0 5px;
+}
+.chat .messages li .tete .date {
+  float: right;
+  font-weight:bold;
+  font-size: 1.10em;
+  z-index: -1;
+}
+.chat .messages li .tete .author {
+  float: left;
+  font-weight:bold;
+  font-size: 1.20em;
+}
+.chat .messages li .content {
+  clear: both;
+  padding: 0 5px;
+}
+.chat .message {
+  margin: 20px 0;
+}
